@@ -2,9 +2,41 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-image: url("/img/Disco.gif");        
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
 
 }
+nav.navbar {
+  background-color: #240046;
+  height: 100%;
+  padding: 1em;
+}
+.navbar__icon {
+  width: 4rem;
+}
+.navbar__icon img {
+  width: 100%;
+}
+/* 
 
+      nav {
+          display: inline;
+          flex-direction: row;
+          background-color: transparent;
+          float: right;
+  
+      }
 
 li {
   color: #fff;
@@ -31,7 +63,7 @@ li {
   
   
   
-}
+} */
 
 /* .boton_1 {
   width: 32px;
@@ -72,7 +104,7 @@ li {
           font-weight: 700;
       } */
       
-      .fondo_menu {
+      /* .fondo_menu {
           
           position: fixed;
           display: inline-block, flex;
@@ -287,7 +319,7 @@ footer {
 
   background-image: url(/svg/vector-1.svg);
   bottom: 0;
-}
+} */
 
 /* div ,.container_1 {
   background-color: rgba(0, 0, 0, 0.80);
